@@ -120,6 +120,16 @@ main .col h3 {
   padding-bottom: 20px;
 }
 
+main .col.left h3, main .fas {
+  display: inline-block;
+}
+
+main .fas {
+  display: inline-block;
+  color: orange;
+  font-size: 20px;
+}
+
 main .col.right .text.n1, main .col.right .text.n2 {
   margin-bottom: 10px;
 }
@@ -134,3 +144,14 @@ main .col, .text {
 }
 
 /* FINE MAIN */
+
+/* FOOTER */
+footer {
+  background-color: white;
+  color: lightgrey;
+  text-align: center;
+}
+ footer .icons .fab {
+   padding: 20px 120px;
+ }
+/* FINE FOOTER */
