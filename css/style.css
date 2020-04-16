@@ -1,0 +1,52 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Fine Reset */
+
+/* Regole generali */
+body {
+  background-image: url(../img/sfondo.png);
+  background-repeat: repeat;
+}
+
+.wrapper {
+  width: 60%;
+  margin: auto;
+}
+/* Fine Regole generali */
+
+/* HEADER */
+header .box1 .titolo {
+  text-align: center;
+
+}
+
+header .box1{
+  position: relative;
+  background-image: url(../img/background-header.jpg);
+  color: white;
+  border: 6px solid;
+  height: 300px;
+}
+
+header .box1 .titolo h1 {
+  padding: 7px;
+  font-size: 50px;
+  border: 4px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header .box1 .titolo p {
+  margin-top: 50px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* FINE HEADER */
