@@ -126,5 +126,11 @@ main .col.right .text.n1, main .col.right .text.n2 {
 
 main .col.right .text {
   background-color: white;
+  padding: 7px;
 }
+
+main .col, .text {
+  border-radius: 10%;
+}
+
 /* FINE MAIN */
