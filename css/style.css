@@ -15,18 +15,15 @@ body {
 .wrapper {
   width: 60%;
   margin: auto;
+  margin-top: 15px;
 }
 /* Fine Regole generali */
 
 /* HEADER */
-header .box1 .titolo {
-  text-align: center;
-
-}
-
 header .box1{
   position: relative;
   background-image: url(../img/background-header.jpg);
+  text-align: center;
   color: white;
   border: 6px solid;
   height: 300px;
