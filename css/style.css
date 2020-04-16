@@ -66,7 +66,7 @@ header .box2 .menu li {
   padding: 10px 5px;
 }
 
-header .menu li:hover{
+header .menu li:hover {
   background-color: black;
 }
 /* FINE HEADER */
@@ -74,22 +74,28 @@ header .menu li:hover{
 /* MAIN */
 main {
   margin: 5px 0;
-  }
+}
 
 main::after {
   content: "";
   display: table;
   clear: both;
 }
-
+/* Colonne */
 main .col {
   color: black;
   float: left;
   padding: 10px;
 }
+
+main .col h3 {
+  padding-bottom: 20px;
+}
+
 main .col.center, main .col.left {
   background-color: white;
 }
+
 main .col.left, main .col.right {
   width: 20%;
 }
@@ -98,7 +104,7 @@ main .col.center {
   width: 50%;
   margin: 0 5%;
 }
-
+/* Colonna sinistra - menu laterale */
 main .col.left .menu-laterale {
   list-style-type: none;
 }
@@ -116,10 +122,6 @@ main .col.left .menu-laterale li a:hover {
   text-decoration: underline;
 }
 
-main .col h3 {
-  padding-bottom: 20px;
-}
-
 main .col.left h3, main .fas {
   display: inline-block;
 }
@@ -129,7 +131,7 @@ main .fas {
   color: orange;
   font-size: 20px;
 }
-
+/* Colonna destra - text */
 main .col.right .text.n1, main .col.right .text.n2 {
   margin-bottom: 10px;
 }
@@ -142,7 +144,6 @@ main .col.right .text {
 main .col, .text {
   border-radius: 10%;
 }
-
 /* FINE MAIN */
 
 /* FOOTER */
