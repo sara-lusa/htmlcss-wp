@@ -13,7 +13,7 @@ body {
 }
 
 .wrapper {
-  width: 60%;
+  width: 70%;
   margin: auto;
   margin-top: 15px;
 }
@@ -49,9 +49,24 @@ header .box1 .titolo p {
 }
 
 /* Seconda parte header */
+header .box2 {
+  background-color: #696969;
+}
+
 header .box2 .menu {
-  background-color: grey;
   color: white;
   list-style-type: none;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+header .box2 .menu li {
+  display: inline-block;
+  padding: 10px 5px;
+}
+
+header .menu li:hover{
+  background-color: black;
 }
 /* FINE HEADER */
