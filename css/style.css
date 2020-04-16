@@ -72,12 +72,34 @@ header .menu li:hover{
 /* FINE HEADER */
 
 /* MAIN */
+main {
+  margin: 5px 0;
+}
 main .col {
   background-color: white;
   color: black;
+  float: left;
 }
 
-main .col .left {
-  
+main .col.left {
+  width: 20%;
+}
+
+main .col.center {
+  width: 50%;
+  margin: 0 5%;
+}
+
+main .col.right {
+  width: 20%;
+}
+
+main .col.left .menu-laterale {
+  list-style-type: none;
+}
+
+main .col.left .menu-laterale li a {
+  color: #228B22;
+  text-decoration: none;
 }
 /* FINE MAIN */
