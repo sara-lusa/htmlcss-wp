@@ -74,24 +74,29 @@ header .menu li:hover{
 /* MAIN */
 main {
   margin: 5px 0;
-}
-main .col {
-  background-color: white;
-  color: black;
-  float: left;
+  }
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-main .col.left {
+main .col {
+  color: black;
+  float: left;
+  padding: 10px;
+}
+main .col.center, main .col.left {
+  background-color: white;
+}
+main .col.left, main .col.right {
   width: 20%;
 }
 
 main .col.center {
   width: 50%;
   margin: 0 5%;
-}
-
-main .col.right {
-  width: 20%;
 }
 
 main .col.left .menu-laterale {
@@ -101,5 +106,25 @@ main .col.left .menu-laterale {
 main .col.left .menu-laterale li a {
   color: #228B22;
   text-decoration: none;
+}
+
+main .col.left .menu-laterale li {
+  padding-bottom: 7px;
+}
+
+main .col.left .menu-laterale li a:hover {
+  text-decoration: underline;
+}
+
+main .col h3 {
+  padding-bottom: 20px;
+}
+
+main .col.right .text.n1, main .col.right .text.n2 {
+  margin-bottom: 10px;
+}
+
+main .col.right .text {
+  background-color: white;
 }
 /* FINE MAIN */
