@@ -70,3 +70,14 @@ header .menu li:hover{
   background-color: black;
 }
 /* FINE HEADER */
+
+/* MAIN */
+main .col {
+  background-color: white;
+  color: black;
+}
+
+main .col .left {
+  
+}
+/* FINE MAIN */
